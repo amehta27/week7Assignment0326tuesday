@@ -1,0 +1,32 @@
+<html>
+<head></head>
+
+<body>
+
+<h1>trips</h1>
+
+
+
+  <!-- start of the iteration on the tripList array -->
+  <ul>
+  {{#tripList}}
+  <li>
+    <span>{{title}} - {{image}} - {{date_departure}} - {{date_return}}</span>
+    <form action = "/trip/delete" method="POST">
+      <input type="hidden" name="title" value={{title}}>
+      <input type="submit" value="Delete this trip">
+    </form>
+  </li>
+  <!-- end of the iteration on the userList array -->
+  {{/tripList}}
+
+  {{^tripList}}
+    <p>Sorry no users found</p>
+  {{/tripList}}
+
+
+</ul>
+
+</body>
+
+</html>
