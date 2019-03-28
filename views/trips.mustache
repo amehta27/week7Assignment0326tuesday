@@ -2,7 +2,7 @@
 <head></head>
 
 <body>
-
+welcome {{username}}
 <h1>trips</h1>
 
 
@@ -11,7 +11,7 @@
   <ul>
   {{#tripList}}
   <li>
-    <span>{{title}} - {{image}} - {{date_departure}} - {{date_return}}</span>
+    <span>{{title}} - <img src"{{image}}"/> - {{date_departure}} - {{date_return}}</span>
     <form action = "/trip/delete" method="POST">
       <input type="hidden" name="title" value={{title}}>
       <input type="submit" value="Delete this trip">

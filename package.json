@@ -1,0 +1,26 @@
+{
+  "name": "week7assignmenttuesday0326",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mustache-express": "^1.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amehta27/week7Assignment0326tuesday.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amehta27/week7Assignment0326tuesday/issues"
+  },
+  "homepage": "https://github.com/amehta27/week7Assignment0326tuesday#readme"
+}
